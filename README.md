@@ -1,6 +1,5 @@
 # WholoLot-Business-Project-2021
-<<<<<<< HEAD
-=======
+
 
 Designing a prototype for the wholeLot business website which is done with various techniques of wireframes low-fidelity and High-fidelity 
 
@@ -15,4 +14,4 @@ Designing a prototype for the wholeLot business website which is done with vario
 *  The above prototype images of the home,login ovelay, Left-side bar(push left->right), about page, Footer.
 
 * Modifcation can be done based on client requirement and complexity of tech tool's in the level of high fidelity prototype & source code development 
->>>>>>> ab3212bcf7c4a61038e8b17383b97d98c3989aff
+
