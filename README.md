@@ -14,6 +14,8 @@ Designing a prototype for the wholeLot business website which is done with vario
 <hr>
 
 note:
+
 *The above prototype images of the home,login ovelay, Left-side bar(push left->right), about page, Footer.
+
 *Modifcation can be done based on client requirement and complexity of tech tool's in the level of high fidelity prototype & source code development 
 
