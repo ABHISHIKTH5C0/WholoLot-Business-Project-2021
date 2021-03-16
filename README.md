@@ -4,7 +4,7 @@
 Designing a prototype for the wholeLot business website which is done with various techniques of wireframes low-fidelity and High-fidelity 
 
 <h2>Low Fidelity wire frames</h2>
-<h3>In this lo-fi wireframes we used the dotted grid book with finelines</h3>
+<h3>In this lo-fi wireframes we used the dotted grid book with fineliners</h3>
 <img src="Images/Lo-fi/WholeLot Bussines pro_1.jpg"  width="50%">
 <img src="Images/Lo-fi/WholeLot Bussines pro_2.jpg" width="50%">
 <img src="Images/Lo-fi/WholeLot Bussines pro_3.jpg" width="50%">
