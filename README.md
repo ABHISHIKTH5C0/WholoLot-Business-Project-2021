@@ -11,6 +11,8 @@ Designing a prototype for the wholeLot business website which is done with vario
 <img src="Images/Lo-fi/WholeLot Bussines pro_4.jpg" width="50%">
 <img src="Images/Lo-fi/fullnav.jpg" width="50%">
 <img src="Images/Lo-fi/navsidebar.jpg" width="50%">
+<img src="Images/Lo-fi/footer.jpg" width="50%">
+
 <hr>
 
 note:
