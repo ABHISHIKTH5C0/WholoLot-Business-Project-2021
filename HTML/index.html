@@ -16,17 +16,83 @@
         <link rel="stylesheet" href="css/uikit.min.css" />
 
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="C:\Users\Abhishikth\Desktop\Career Learnings\My project\wholeLot New Business pro\Styles\build\tailwind.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
-        <!--JS frameworks-->
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
+       
     </head>
+    
     <body>
+    <nav class="uk-navbar-container uk-margin  " uk-navbar style="background-color:#E4F9FF ;">
+
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item h-14 w-14" uk-toggle="target: #offcanvas-overlay" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#E62B4A">
+                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+                <div class="uk-offcanvas-bar " >
+                   
+                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+            
+            
+                    <h3>Title</h3>
+            
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+            <a class="uk-navbar-item uk-logo w-60" href="#"><img src="../Images/WholeLot logo.svg" alt="logo"  srcset=""></a>
+            
+        </div>
+
+       
+        <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#"><button class="uk-button navcolor">HOME</button></a></li>
+                    <li class="uk-active"><a href="#"><button class="uk-button navcolor">ABOUT US</button></a></li>
+                    <li class="uk-active">
+                        <a href="#"><button class="uk-button navcolor">SERVICES</button></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="uk-active">
+                        <a href="#"><button class=" uk-button navcolor">PROJECTS</button></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+        <div class="uk-navbar-right">
+            
+            <a class="uk-navbar-item uk-logo" href="#">Login</a>
+            
+        </div>
+
+        
+</nav>
+        
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1 class="text-4*1 font-bold to-blue-500">Hello Wrold</h1>
+        
+
         <script src="" async defer></script>
     </body>
 </html>
