@@ -1,0 +1,21 @@
+.navbtn{
+    color:#FA1616;
+    font-size: 18px
+  }
+  
+:hover.navbtn{
+    color: #ffff;
+    background-color:#FA1616;
+}  
+
+.logbtn{
+    color:#0FABBC;
+    font-size: 18px
+  }
+  
+:hover.logbtn{
+    color: #ffff;
+    background-color:#0FABBC;
+}  
+
+

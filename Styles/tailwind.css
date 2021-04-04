@@ -2,6 +2,10 @@
   color: red;
 }
 
+.navbtn{
+  text-decoration: red
+}
+
 
 @tailwind base;
 @tailwind components;
