@@ -1,3 +1,7 @@
+
+.bgblue{
+    background-color: #0FABBC;
+}
 .navbtn{
     color:#FA1616;
     font-size: 18px
@@ -5,6 +9,7 @@
   
 :hover.navbtn{
     color: #ffff;
+    transition: 0.9s;
     background-color:#FA1616;
 }  
 
@@ -15,7 +20,20 @@
   
 :hover.logbtn{
     color: #ffff;
+    transition: 0.9s;
     background-color:#0FABBC;
 }  
 
+:hover.sidenav{
+    color: black;
+    transition: 0.5s;
+    transform: rotateY(180deg)
+    
 
+}
+
+@media only screen and (max-width: 1000px){
+    .sidenav{ 
+    display: none;
+    }
+}

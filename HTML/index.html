@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
+    <head >
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>WholoLot</title>
@@ -31,34 +31,97 @@
     </head>
     
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E4F9FF;">
-        <div class="container-fluid navbar-collapse">
-        <a class="navbar-brand h-8 w-8 pb-5" id="navbarNavAltMarkup" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#FA1616" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-          </svg></a>
-          <a class="navbar-brand "  href="#">
-              <img src="../Images/WholeLot logo.svg" alt="wholeLot log" width="150">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-                <div class="p-4 flex-grow-1 bd-highlight justify-content-start navbtn">HOME</div>
-                <div class="p-4 bd-highlight justify-content-center navbtn">ABOUT US</div>
-                <div class="p-4 bd-highlight justify-content-end navbtn">SERVICES</div>
-                <div class="p-4 bd-highlight justify-content-end navbtn">PROJECTS</div>
-            </div>
-          </div>
-          <div class="collapse navbar-collapse justify-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-                <div class="p-4 flex-grow-1 bd-highlight justify-content-start logbtn">Login</div>
-                
-            </div>
-          </div>
-        </div>
-      </nav>
+  <header  >
+    
+    <nav class="navbar navbar-expand-lg navbar-light "  style="background-color:#E4F9FF " uk-sticky>
+      
+
+          <!--side nav with icon and overlay content-->
         
+          <a class="navbar-brand h-8 w-8 ml-4 mr-6 mb-3 sidenav" uk-toggle="target: #offcanvas-overlay"  id="navbarNavAltMarkup" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#FA1616" viewBox="0 0 24 24" stroke="#fa1616">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </a>
+                <!--offcanvas side nav-->
+                      <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar bgblue">
+                    
+                            <button class="uk-offcanvas-close sidenav" type="button" uk-close></button>
+                    
+                    
+                            <h3>Title</h3>
+                    
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    
+                        </div>
+                    </div>
+
+
+
+            <div class="container">
+            
+              <a class="navbar-brand "  href="#">
+                  <img src="../Images/WholeLot logo.svg" alt="wholeLot log" width="150">
+              </a>
+              <button class="navbar-toggler actiived" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <div class="p-4 flex-grow-1 bd-highlight justify-content-start navbtn">HOME</div>
+                    <div class="p-4 bd-highlight justify-content-center navbtn">ABOUT US</div>
+                    <a class="p-4 bd-highlight justify-content-end navbtn">SERVICES</a>
+                    
+                    <div uk-dropdown >
+                      <ul class="uk-nav uk-dropdown-nav">
+                          <li class="uk-active"><button href="#">SERVICES</button></li>
+                          
+                          <li class="uk-nav-divider"></li>
+                          <li class="uk-active"><button href="#">ALL SERVICES</button></li>
+                      </ul>
+                  </div>
+
+
+
+                    <div class="p-4 bd-highlight justify-content-end navbtn">PROJECTS</div>
+                </div>
+              </div>
+              <div class="collapse navbar-collapse justify-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <div class="p-4 flex-grow-1 bd-highlight justify-content-start logbtn">Login</div>
+                    
+                </div>
+              </div>
+            </div>
+            
+      </nav>
+      
+  </header>    
+  <div class="uk-position-relative uk-light" uk-slideshow>
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="../Images/HomeBG.jpg" alt=""  uk-cover >
+        </li>
+        <li>
+            <img src="../Images/homebg2.jpg" alt="" uk-cover>
+        </li>
+       
+    </ul>
+    <div>
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>    
+    <div class="uk-position-bottom-center uk-position-small">
+        <ul class="uk-dotnav">
+            <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+            
+        </ul>
+        
+    </div>
+
+    </div> 
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
