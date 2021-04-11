@@ -10,5 +10,7 @@
 			"path": "..\\JavaScript"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
 }

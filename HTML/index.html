@@ -27,101 +27,111 @@
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
+        <script src="https://kit.fontawesome.com/9a73dcd5bc.js" crossorigin="anonymous"></script>
+
        
     </head>
     
-<body>
-  <header  >
-    
-    <nav class="navbar navbar-expand-lg navbar-light "  style="background-color:#E4F9FF " uk-sticky>
+  <body>
+  <header>
+    <div class="uk-position-relative " uk-slideshow="animation: push">
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 4:3 animation: push">
       
-
-          <!--side nav with icon and overlay content-->
-        
-          <a class="navbar-brand h-8 w-8 ml-4 mr-6 mb-3 sidenav" uk-toggle="target: #offcanvas-overlay"  id="navbarNavAltMarkup" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#FA1616" viewBox="0 0 24 24" stroke="#fa1616">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-          </svg>
-        </a>
-                <!--offcanvas side nav-->
-                      <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
-                        <div class="uk-offcanvas-bar bgblue">
-                    
-                            <button class="uk-offcanvas-close sidenav" type="button" uk-close></button>
-                    
-                    
-                            <h3>Title</h3>
-                    
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    
-                        </div>
-                    </div>
-
-
-
-            <div class="container">
-            
-              <a class="navbar-brand "  href="#">
-                  <img src="../Images/WholeLot logo.svg" alt="wholeLot log" width="150">
-              </a>
-              <button class="navbar-toggler actiived" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav ">
-                    <div class="p-4 flex-grow-1 bd-highlight justify-content-start navbtn">HOME</div>
-                    <div class="p-4 bd-highlight justify-content-center navbtn">ABOUT US</div>
-                    <a class="p-4 bd-highlight justify-content-end navbtn">SERVICES</a>
-                    
-                    <div uk-dropdown >
-                      <ul class="uk-nav uk-dropdown-nav">
-                          <li class="uk-active"><button href="#">SERVICES</button></li>
-                          
-                          <li class="uk-nav-divider"></li>
-                          <li class="uk-active"><button href="#">ALL SERVICES</button></li>
-                      </ul>
+          <ul class="uk-slideshow-items">
+              <li>
+                  <img src="../Images/HomeBG.jpg" alt="" uk-cover>
+                  <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <h3 class="uk-margin-remove">Overlay Bottom Right</h3>
+                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet.</p>
+                </div>
+              </li>
+              <li>
+                  <img src="../Images/homebg2.jpg" alt="" uk-cover>
+                  <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <h1 class="uk-margin-remove">Center</h1>
+                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
+              </li>
+              
+          </ul>
 
-
-
-                    <div class="p-4 bd-highlight justify-content-end navbtn">PROJECTS</div>
-                </div>
-              </div>
-              <div class="collapse navbar-collapse justify-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav ">
-                    <div class="p-4 flex-grow-1 bd-highlight justify-content-start logbtn">Login</div>
-                    
-                </div>
-              </div>
-            </div>
-            
-      </nav>
-      
-  </header>    
-  <div class="uk-position-relative uk-light" uk-slideshow>
-
-    <ul class="uk-slideshow-items">
-        <li>
-            <img src="../Images/HomeBG.jpg" alt=""  uk-cover >
-        </li>
-        <li>
-            <img src="../Images/homebg2.jpg" alt="" uk-cover>
-        </li>
-       
-    </ul>
-    <div>
-      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-    </div>    
-    <div class="uk-position-bottom-center uk-position-small">
-        <ul class="uk-dotnav">
-            <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
-            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
-            
-        </ul>
         
-    </div>
+      </div>
+      <div class="uk-position-bottom-center uk-position-small">
+          <ul class="uk-dotnav">
+              <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+              <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+              
+          </ul>
+      </div>
 
-    </div> 
+    
+
+  <div class="uk-position-top">
+    <nav class="uk-navbar-container uk-navbar-transparent" >
+      
+      <div class="logo"><i class="sidenav h-8 w-8 ml-4 mr-6 mb-3 fas fa-align-right "uk-toggle="target: #offcanvas-overlay"  href="#">
+
+      </i> <img src="../Images/WholeLot logo.svg" width="175px"></img></div>
+      <label for="btn" class ="icon">
+         
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      
+        <ul>
+          <li><a class="primnav mainnav" href="#">HOME</a></li>
+          <li><a class="primnav mainnav"  href="#">ABOUT US</a></li>
+          <li>
+            <label for="btn-1" class="show ">SERVICES  <i class="fas fa-angle-down"></i></label>
+            
+            <a class="primnav mainnav" href="#">SERVICES  <i class="fas fa-angle-down"></i></a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+              <li><a class="primnav " href="#">Services</a></li>
+              <li><a class="primnav " href="#">All serives</a></li>
+            </ul>
+          </li> 
+ 
+          <li>
+            <label for="btn-2" class="show">PROJECTS <i class="fas fa-angle-down"></i></label>
+            
+            <a class="primnav mainnav" href="#">PROJECTS <i class="fas fa-angle-down"></i></a>
+            <input type="checkbox" id="btn-2">
+            <ul>
+              <li><a class="primnav " href="#">Projects</a></li>
+              <li><a class="primnav " href="#">All projects</a></li>
+            </ul>
+          </li>  
+          
+           <li ><a class="loginnav" href="#">Login</a></li>
+      
+       </ul>
+       <!--offcanvas side nav-->
+       <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar bgblue">
+
+            <button class="uk-offcanvas-close  " type="button" uk-close></button>
+
+
+            <h3>Title</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        </div>
+    </div>
+  </div>
+
+  </nav>
+</div>
+</div> 
+  </header> 
+
+  <div class="hmslider" >
+
+    
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -130,3 +140,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
