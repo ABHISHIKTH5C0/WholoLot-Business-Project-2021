@@ -32,41 +32,9 @@
        
     </head>
     
-  <body>
+<body>
   <header>
-    <div class="uk-position-relative " uk-slideshow="animation: push">
-      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 4:3 animation: push">
-      
-          <ul class="uk-slideshow-items">
-              <li>
-                  <img src="../Images/HomeBG.jpg" alt="" uk-cover>
-                  <div class="uk-position-center uk-position-small uk-text-center uk-light">
-                    <h3 class="uk-margin-remove">Overlay Bottom Right</h3>
-                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet.</p>
-                </div>
-              </li>
-              <li>
-                  <img src="../Images/homebg2.jpg" alt="" uk-cover>
-                  <div class="uk-position-center uk-position-small uk-text-center uk-light">
-                    <h1 class="uk-margin-remove">Center</h1>
-                    <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-              </li>
-              
-          </ul>
-
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-        
-      </div>
-      <div class="uk-position-bottom-center uk-position-small">
-          <ul class="uk-dotnav">
-              <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
-              <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
-              
-          </ul>
-      </div>
-
+    
     
 
   <div class="uk-position-top">
@@ -90,8 +58,8 @@
             <a class="primnav mainnav" href="#">SERVICES  <i class="fas fa-angle-down"></i></a>
             <input type="checkbox" id="btn-1">
             <ul>
-              <li><a class="primnav " href="#">Services</a></li>
-              <li><a class="primnav " href="#">All serives</a></li>
+              <li class="subnav "><a href="#">Services</a></li>
+              <li class="subnav "><a href="#">All serives</a></li>
             </ul>
           </li> 
  
@@ -101,8 +69,8 @@
             <a class="primnav mainnav" href="#">PROJECTS <i class="fas fa-angle-down"></i></a>
             <input type="checkbox" id="btn-2">
             <ul>
-              <li><a class="primnav " href="#">Projects</a></li>
-              <li><a class="primnav " href="#">All projects</a></li>
+              <li class="subnav "><a  href="#">Projects</a></li>
+              <li class="subnav "><a href="#">All projects</a></li>
             </ul>
           </li>  
           
@@ -125,11 +93,46 @@
   </div>
 
   </nav>
+
 </div>
+<div class="uk-position-relative " uk-slideshow="animation: push">
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow=" min-height: 300; max-height: 600; animation: push">
+  
+      <ul class="uk-slideshow-items">
+          <li>
+              <img src="../Images/HomeBG.jpg" alt="" uk-cover>
+              <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <h3 class="uk-margin-remove">Overlay Bottom Right</h3>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet.</p>
+            </div>
+            
+          </li>
+          <li>
+              <img src="../Images/homebg2.jpg" alt="" uk-cover>
+              <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <h1 class="uk-margin-remove">Center</h1>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+          </li>
+          
+      </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    
+  </div>
+  <div class="uk-position-bottom-center uk-position-small">
+      <ul class="uk-dotnav">
+          <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+          <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+          
+      </ul>
+  </div>
+
 </div> 
   </header> 
-
-  <div class="hmslider" >
+ 
+ 
 
     
         <!--[if lt IE 7]>
