@@ -26,78 +26,57 @@
         <!-- UIkit JS -->
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
-
-        <script src="https://kit.fontawesome.com/9a73dcd5bc.js" crossorigin="anonymous"></script>
-
-       
+        <script src="https://kit.fontawesome.com/9a73dcd5bc.js" crossorigin="anonymous"></script>       
     </head>
-    
 <body>
-  <header>
-    
-    
-
-  <div class="uk-position-top">
-    <nav class="uk-navbar-container uk-navbar-transparent" >
-      
+  <header uk-sticky> 
+    <div class="uk-position-top">
+    <nav class="uk-navbar-container uk-navbar-transparent"  >
       <div class="logo"><i class="sidenav h-8 w-8 ml-4 mr-6 mb-3 fas fa-align-right "uk-toggle="target: #offcanvas-overlay"  href="#">
-
       </i> <img src="../Images/WholeLot logo.svg" width="175px"></img></div>
       <label for="btn" class ="icon">
-         
         <span class="fa fa-bars"></span>
       </label>
       <input type="checkbox" id="btn">
-      
         <ul>
           <li><a class="primnav mainnav" href="#">HOME</a></li>
           <li><a class="primnav mainnav"  href="#">ABOUT US</a></li>
           <li>
-            <label for="btn-1" class="show ">SERVICES  <i class="fas fa-angle-down"></i></label>
-            
-            <a class="primnav mainnav" href="#">SERVICES  <i class="fas fa-angle-down"></i></a>
+            <label for="btn-1" class="show">SERVICES  <i class="fas fa-angle-down"></i></label>
+            <a class="primnav mainnav"  href="#">SERVICES  <i class="fas fa-angle-down"></i></a>
             <input type="checkbox" id="btn-1">
             <ul>
               <li class="subnav "><a href="#">Services</a></li>
               <li class="subnav "><a href="#">All serives</a></li>
             </ul>
           </li> 
- 
           <li>
             <label for="btn-2" class="show">PROJECTS <i class="fas fa-angle-down"></i></label>
-            
             <a class="primnav mainnav" href="#">PROJECTS <i class="fas fa-angle-down"></i></a>
             <input type="checkbox" id="btn-2">
-            <ul>
-              <li class="subnav "><a  href="#">Projects</a></li>
-              <li class="subnav "><a href="#">All projects</a></li>
+            <ul id="projects">
+              <li class="subpro"><a  href="#">Projects</a></li>
+              <li class="subpro"><a href="#">All projects</a></li>
             </ul>
           </li>  
-          
            <li ><a class="loginnav" href="#">Login</a></li>
-      
        </ul>
-       <!--offcanvas side nav-->
-       <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
-        <div class="uk-offcanvas-bar bgblue">
-
-            <button class="uk-offcanvas-close  " type="button" uk-close></button>
-
-
-            <h3>Title</h3>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-        </div>
-    </div>
   </div>
-
-  </nav>
-
+</nav>
+</header> 
+<!--offcanvas side nav-->
+<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+  <div class="uk-offcanvas-bar bgblue">
+      <button class="uk-offcanvas-close  " type="button" uk-close></button>
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
 </div>
+</div>
+<!--Home image sliders-->
 <div class="uk-position-relative " uk-slideshow="animation: push">
   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow=" min-height: 300; max-height: 600; animation: push">
-  
       <ul class="uk-slideshow-items">
           <li>
               <img src="../Images/HomeBG.jpg" alt="" uk-cover>
@@ -105,7 +84,6 @@
                 <h3 class="uk-margin-remove">Overlay Bottom Right</h3>
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet.</p>
             </div>
-            
           </li>
           <li>
               <img src="../Images/homebg2.jpg" alt="" uk-cover>
@@ -114,32 +92,20 @@
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
           </li>
-          
       </ul>
-
     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-    
   </div>
   <div class="uk-position-bottom-center uk-position-small">
       <ul class="uk-dotnav">
           <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
           <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
-          
       </ul>
   </div>
-
 </div> 
-  </header> 
- 
- 
-
-    
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
