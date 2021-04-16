@@ -210,11 +210,28 @@ footer{
   left:0;
   bottom: 0;
   width: 100%;
-  height:250px ;
-  background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Royal_Albert_Hall,_London.jpg/220px-Royal_Albert_Hall,_London.jpg);
-  background-size: 100% 100%;
+  height:350px ;
+  background-color: #000;
+  background-image: url("../../Images/footer\ bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 80% 125%;
+}
+.subfooter{
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  height: 60pz;
+  background-color: rgba(15, 171, 188, 0.5);
+  color: #FFFF;
+}
+.subfooter div p{
+  font-weight: lighter;
+  position: relative;
+  font-size: 12px;
   
-  
+  padding-top: 20px;
+  padding-left: 5%;
 }
 
 
