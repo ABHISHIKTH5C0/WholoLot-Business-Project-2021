@@ -1,0 +1,336 @@
+/* ***********************Max Width length************************Footer */
+footer{
+    position:fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height:300px ;
+    background-color: #000;
+    background-image: url("../Images/footer\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 80% 125%;
+  }
+  .footercontent form{
+      max-width: 300px;
+  }
+  hr{
+      visibility: hidden;
+  }
+  .footercontent form button{
+    border-radius: 5px;
+    background-color: #1473E6;
+    width: 150px;
+    /* padding-bottom: 5px; */
+}
+  .servicelinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .subfooter{
+    
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(15, 171, 188, 0.5);
+    color: #FFFF;
+  
+  }
+  
+  .ftrservicelist{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+    padding-right: 100px;
+    justify-content: space-between;
+    border-radius: 20px;
+  }
+  
+  .nestftr{
+    display: flex;
+    flex-direction: row;
+  }
+  .nestftr  ul{
+    font-size: 0.8rem;
+    width: 75%;
+    margin-top: 0px;
+  }
+  
+  #usefulllinks{
+    color: #000;
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .nestftrlinks ul li a{
+    color: #FFFF;
+    font-size: 0.8rem;
+  }
+  .ftrlinks{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#12CAD6;
+    margin-top: 30px;
+    padding-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .ftrmain div h3{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    font-weight: 600;
+  }
+  .ftrmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .footercontent h2{
+    color: #fa1616;
+  }
+  
+  .footercontent{
+    display: block;
+    padding-top: 30px;
+    width: 300px;
+    height: 100px;
+    color: #ffff;
+    margin-left: 5%;
+    font-size: 0.8rem;
+  }
+  .subfooter div p{
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    position: relative;
+    font-size: 12px;
+    padding-top: 1%;
+    padding-left: 0%;
+  }
+  .fticons{
+    padding-top: 1%;
+  }
+  .fticons a{
+      background-color: rgba(15, 171, 188, 0.1);
+      color: #FA1616;
+  }
+  .subftricon{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  
+  }
+  .footericons{
+      display: none;
+  }
+
+  /* ********************************************1000px width */
+  @media screen  and (max-width:1000px){
+    
+    .footercontent h2{
+        margin-bottom: 0px;
+        
+    }
+    hr{
+        visibility: visible;
+       
+    }
+  .footercontent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    padding-top: 10px;
+    width: 85%;
+    height: 40%;
+  }
+
+  
+ .servicelinks{
+   width: 100%;
+   height: 75%;
+   margin-top: -40px;
+   
+   
+ }
+  .ftrservicelist{
+    
+    background-color:unset;
+    
+    height:100%;
+  }
+  .ftrservicelist div{
+    display: flexbox;
+    background-color: unset;
+    
+  }
+  .ftrservicelist div h3{
+    color: #aaaaaa;
+    font-size: 1rem;
+    margin-left: 30px;
+ }
+  
+  .ftrlinks  {
+   display: flex;
+   flex-direction: column;
+   font-size: 1rem;
+   margin-bottom: 25%;
+   background-color:unset;
+   
+   
+  }
+  .nestftrlinks{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  #usefulllinks{
+    color: #aaaaaa;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+  }
+  
+  
+ .ftrmain{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 0;      
+ }
+
+ footer{
+   display: inline-flexbox;
+   height: 400px;
+   background-image: none;
+   background-color: #444444;
+ }
+}
+
+/* ********************************************768px width */
+
+@media all and (max-width:768px){
+    
+    .footercontent p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    hr{
+        visibility: visible;
+        margin-top: 15px;
+        position: relative;
+        
+       
+    }
+    .footercontent{
+        display: flex;
+        flex-direction: column;
+        
+        width: 85%;
+        height: 35%;
+        padding-top: 10px;
+      }
+ 
+     .servicelinks{
+      
+       width: 100%;
+       height: 75%;
+       margin-top: -30px;
+       padding-right: 0px;
+       
+     }
+      .ftrservicelist {
+        background-color: unset;
+        padding-right: 0;
+      }
+      .ftrservicelist div h3{
+         color: #aaaaaa;
+         font-size: 1rem;
+         margin-bottom: 0;
+         margin-left: 0;
+      }
+      
+      .ftrlinks  {
+       display: flex;
+       flex-direction: column;
+       font-size: 1rem;
+       padding-right: 0;
+       margin-bottom: 25%;
+      }
+      .nestftrlinks ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1rem;
+        width: 150px;
+      }
+      #usefulllinks{
+        color: #aaaaaa;
+        font-size: 1rem;
+        padding-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        
+      }
+      
+      
+     .ftrmain{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       padding: 0;      
+     }
+ 
+     footer{
+       display: inline-flexbox;
+       height: 400px;
+       background-image: none;
+       background-color: #444444;
+     }
+
+}
+
+@media all and (max-width:440px){
+    .footercontent,form,p{
+        font-size: 0.7rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .subftricon div{
+        padding-left: 20px;
+        font-size: 0.5rem;
+        
+    }
+    .subfooter{
+        background-color: unset;
+    }
+    .servicelinks{
+        visibility: hidden;
+    }
+    .footericons a{
+        visibility: visible;
+        background-color: unset;
+    }
+    .footericons {
+        display: inline;
+        padding-bottom: 0px;
+        
+    }
+    hr{
+        visibility: hidden;
+    }
+    footer{
+        height: 250px;
+    }
+    .fticons{
+        visibility: hidden;
+    }
+}
