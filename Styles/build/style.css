@@ -200,6 +200,32 @@ nav ul ul .subnav {
     display:none;
 }
 
+/* *************HOME SLIDER******** */
+
+#slide1 {
+  padding-left: 10%;
+  padding-top: 12%;
+  width: 75%;
+}
+#slide1 div p{
+  font-weight:600;
+  line-height: 30px;
+  text-shadow: 1px 2px #000;
+}
+#slide1 div p p{
+  display: block;
+  
+  
+}
+
+.slidebtn{
+  margin-top: 30px;
+  color: #ffff;
+  background-color: #12CAD6;
+  font-weight:bolder;
+  
+}
+
 
 
 /* ********************************************1000px width */
@@ -207,6 +233,25 @@ nav ul ul .subnav {
 
 @media screen  and (max-width:1000px){
   
+#slide1 {
+  padding-left: 10%;
+  
+  padding-top: 15%;
+  width: unset;
+}
+#slide1 div p{
+  font-weight:00;
+  line-height: 40px;
+  text-shadow: 1px 2px #000;
+}
+
+.slidebtn{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #ffff;
+  font-size: 07px;
+}
 
     
     .subnav, .subpro{
@@ -310,8 +355,8 @@ nav ul ul .subnav {
         display: none;
         }
    }
-   
-   @media all and (max-width:1242px){
+/* *********************************************1242px width */
+   @media all and (max-width:1256px){
      nav{
        line-height:0px;
        position: relative;
@@ -331,10 +376,31 @@ nav ul ul .subnav {
        
      }
    }
+   /* ****************************************768px width */
    @media all and (max-width:768px){
-    
-    
+    #slide1{
+      padding: 18% 15%;
+      
+    }
+    #slide1 div p{
+      font-size: 30px;
+      font-weight:500;
+      line-height: 10px;
+    }
+    #slide1 p{
+      font-size: 10px;
+      font-weight:300;
+      line-height: 10px;
+    }
+    .slidebtn{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      line-height: 20px;
+      color: #ffff;
+      font-size: 07px;
+    }
 
+    
     nav .logo{
         padding:10px;
         
@@ -356,7 +422,33 @@ nav ul ul .subnav {
    }
 
    @media all and (max-width:440px){
+    
+    #slidearrow{
+      width: 10%;
+    }
 
+    #slide1{
+      padding: 28% 15%;
+      width: 100%;
+    }
+    #slide1 div p{
+      font-size: 20px;
+      font-weight:600;
+      line-height: 0.5px;
+      text-shadow: #000;
+    }
+    #slide1 p{
+      font-size: 10px;
+      font-weight:300;
+      line-height: 10px;
+    }
+    .slidebtn{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      line-height: 20px;
+      color: #ffff;
+      font-size: 07px;
+    }
    }
 
 

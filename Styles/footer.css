@@ -1,4 +1,5 @@
 /* ***********************Max Width length************************Footer */
+
 footer{
     position:fixed;
     left:0;
@@ -114,8 +115,11 @@ footer{
     padding-top: 1%;
     padding-left: 0%;
   }
+  :hover.uk-icon-button{
+      color:#000000;
+  }
   .fticons{
-    padding-top: 1%;
+    padding-top: 1.25%;
   }
   .fticons a{
       background-color: rgba(15, 171, 188, 0.1);
