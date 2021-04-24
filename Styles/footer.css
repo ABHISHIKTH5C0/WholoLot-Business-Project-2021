@@ -1,9 +1,10 @@
 /* ***********************Max Width length************************Footer */
 
 footer{
-    position:fixed;
+    position:bottom;
     left:0;
     bottom: 0;
+    margin-top: 20px;
     width: 100%;
     height:300px ;
     background-color: #000;
@@ -30,7 +31,8 @@ footer{
   }
   .subfooter{
     
-    position: absolute;
+    position: relative;
+    top: 8.5%;
     left:0;
     bottom: 0;
     width: 100%;
@@ -90,7 +92,7 @@ footer{
   .ftrmain{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   
   .footercontent h2{
@@ -119,7 +121,7 @@ footer{
       color:#000000;
   }
   .fticons{
-    padding-top: 1.25%;
+    padding-top: 1%;
   }
   .fticons a{
       background-color: rgba(15, 171, 188, 0.1);
@@ -159,9 +161,6 @@ footer{
   
  .servicelinks{
    width: 100%;
-   height: 75%;
-   margin-top: -40px;
-   
    
  }
   .ftrservicelist{
@@ -185,7 +184,7 @@ footer{
    display: flex;
    flex-direction: column;
    font-size: 1rem;
-   margin-bottom: 25%;
+   /* margin-bottom: 25%; */
    background-color:unset;
    
    
@@ -202,18 +201,36 @@ footer{
     margin-bottom: 5px;
     
   }
-  
+  .subfooter{
+      display: none;
+  }
+.footericons .subicons{
+    padding-top: 10px;
+    
+}
+
+.footericons {
+    background-color: rgba(15, 171, 188, 0.5);
+    position: relative;
+    line-height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
   
  .ftrmain{
-   display: flex;
    flex-direction: column;
-   justify-content: space-between;
    padding: 0;      
+   justify-content: unset;
  }
 
  footer{
-   display: inline-flexbox;
-   height: 400px;
+
+   position:bottom;
+   height: 450px;
    background-image: none;
    background-color: #444444;
  }
@@ -226,6 +243,7 @@ footer{
     .footercontent p{
         margin-top: 5px;
         margin-bottom: 5px;
+        font-size: 0.6rem;
     }
     hr{
         visibility: visible;
@@ -237,23 +255,25 @@ footer{
     .footercontent{
         display: flex;
         flex-direction: column;
-        
         width: 85%;
         height: 35%;
-        padding-top: 10px;
+        padding-top: 5px;
       }
  
      .servicelinks{
       
        width: 100%;
-       height: 75%;
-       margin-top: -30px;
        padding-right: 0px;
+       height: 48%;
+       margin-bottom: -15px;
+       font-size: 0.6rem;
        
      }
       .ftrservicelist {
         background-color: unset;
         padding-right: 0;
+        margin-top: 0;
+        
       }
       .ftrservicelist div h3{
          color: #aaaaaa;
@@ -267,7 +287,8 @@ footer{
        flex-direction: column;
        font-size: 1rem;
        padding-right: 0;
-       margin-bottom: 25%;
+       margin-top: 0;
+       margin-bottom: 35px;
       }
       .nestftrlinks ul{
         display: flex;
@@ -287,15 +308,33 @@ footer{
       
       
      .ftrmain{
+    
        display: flex;
        flex-direction: column;
        justify-content: space-between;
        padding: 0;      
      }
- 
+     .footericons div{
+         font-size: 10px;
+         padding-top: 10px;
+
+     }
+     .subicons a{
+        height: 15px;
+        width: 15px;
+        color: black;
+        background-color: unset;
+     }
+     .footericons{
+         background-color: unset;
+         position: relative;
+         bottom: 15px;
+         margin-bottom:20px ;
+         line-height: 2px;
+         height: 65px;
+     }
      footer{
-       display: inline-flexbox;
-       height: 400px;
+       height: 340px;
        background-image: none;
        background-color: #444444;
      }
@@ -315,21 +354,29 @@ footer{
     }
     .subfooter{
         background-color: unset;
+        display: none;
     }
     .servicelinks{
-        visibility: hidden;
+        display: none;
     }
-    .footericons a{
-        visibility: visible;
-        background-color: unset;
+
+    .footericons div{
+       margin-top: 5px;
     }
-    .footericons {
-        display: inline;
+    .footericons{
+        display: flex;
+        margin-top: 15%;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding-left: 30px;
+        line-height: 12px;
         padding-bottom: 0px;
         
+        background-color: unset;
     }
+    
     hr{
-        visibility: hidden;
+        display: none;
     }
     footer{
         height: 250px;

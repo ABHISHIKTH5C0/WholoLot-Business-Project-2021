@@ -13,23 +13,27 @@
         <link rel="stylesheet" href="">
 
         <!--CSS frameworks-->
-        <link rel="stylesheet" href="css/uikit.min.css" />
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
 
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 
         <link href="../Styles/build/style.css" rel="stylesheet">
         <link href="../Styles/footer.css" rel="stylesheet">
         
-        
-       
 
-        <!-- UIkit JS -->
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
-        <script src="https://kit.fontawesome.com/9a73dcd5bc.js" crossorigin="anonymous"></script>       
+        <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit-icons.min.js"></script>
+
+        <script src="https://kit.fontawesome.com/9a73dcd5bc.js" crossorigin="anonymous"></script>   
+            
     </head>
 <body>
   <header uk-sticky> 
@@ -105,7 +109,7 @@
   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow=" min-height: 300; max-height: 600; animation: push">
       <ul class="uk-slideshow-items">
           <li>
-              <img src="../Images/HomeBG.jpg" alt="" uk-cover>
+              <img  src="../Images/HomeBG.jpg" alt="" uk-cover>
               <div class="uk-position-top-left uk-position-xs uk-text-left uk-light" id="slide1">
                 <div>
                   <p class="uk-heading-medium">Unlock Your</p>
@@ -115,7 +119,7 @@
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   Necessitatibus </p>
                   <div>
-                  <button class="uk-button uk-button-large slidebtn">Our Services</button>
+                  <button class=" slidebtn">Our Services</button>
                 </div>
               </div>  
               
@@ -131,7 +135,7 @@
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   Necessitatibus </p>
                   <div>
-                    <button class="uk-button uk-button-large slidebtn">Our Services</button>
+                    <button class="slidebtn">Our Services</button>
                   </div>
                   
               </div>
@@ -141,13 +145,34 @@
     <a class="uk-position-center-left uk-position-xl " id="slidearrow" uk-icon="icon: chevron-left ; ratio: 4" href="#"  uk-slideshow-item="previous"></a>
     <a class="uk-position-center-right uk-position-xl" id="slidearrow" uk-icon="icon: chevron-right ; ratio: 4" href="#"  uk-slideshow-item="next"></a>
   </div>
-  <div class="uk-position-bottom-center uk-position-small" >
+  <div id="dotnav" class="uk-position-bottom-center uk-position-small" >
       <ul class="uk-dotnav" >
           <li  uk-slideshow-item="0"><a href="#">Item 1</a></li>
           <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
       </ul>
   </div>
+  
 </div> 
+
+<div class="uk-child-width-expand@s" id="section2" uk-grid>
+  <div class="uk-grid-item-match">
+      <div class="uk-card uk-card-default uk-card-body">
+          <h3>Nationwide Service, Local Expertise</h3>
+          <p>
+            Our Technology Allows You To Offer The Latest Software To Your Possible Customers!
+          </p>
+          <a href="#">Learn more</a>
+      </div>
+   </div>
+  <div>
+      <h3>Heading</h3>
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+  </div>
+</div>
+  
+</div>  
 <footer>
   <div class="ftrmain">
     <div class="footercontent">
@@ -158,18 +183,14 @@
           <input class="form-control me-2" type="search" placeholder="Your email" aria-label="Subscribe">
           <button >Subscribe</button>
         </form>
-        <div class="footericons">
-          <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
-          <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
-          <a href="" class="uk-icon-button" uk-icon="youtube"></a>
-        </div>
+        
         <hr>
     </div>
     <div class="servicelinks">
       <div class="ftrservicelist">
         <div>
           <h3>All Services</h3>
-          <div class="nestftr "> 
+          <div class="nestftr"> 
             <ul>
               <li><a href="#">Business Management</a></li>
               <li><a href="#">Web Development</a></li>
@@ -197,6 +218,19 @@
               </ul>
             </div>
         </div>  
+      </div>
+    </div>
+    
+    <div class="footericons">
+      
+      <div>
+        <p><a href="#" style="color: #fff; ">Terms of use</a></p>
+        <p style="color: black;   "><i class="far fa-copyright"> Copyright 2021.WholeLot All Rights Reserved</i></p>
+      </div>
+      <div class="subicons">
+        <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+        <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+        <a href="" class="uk-icon-button" uk-icon="youtube"></a>
       </div>
     </div>
   </div>  

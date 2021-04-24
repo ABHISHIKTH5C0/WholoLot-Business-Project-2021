@@ -1,4 +1,12 @@
 
+#section2{
+  position: relative;
+  bottom: 50px;
+  background-color: r;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .sidenaveheading p{
   color: #ffff;
 }
@@ -209,7 +217,7 @@ nav ul ul .subnav {
 }
 #slide1 div p{
   font-weight:600;
-  line-height: 30px;
+  line-height: 20px;
   text-shadow: 1px 2px #000;
 }
 #slide1 div p p{
@@ -217,13 +225,24 @@ nav ul ul .subnav {
   
   
 }
+#dotnav{
+position:relative; 
+bottom: 10%;
+}
 
 .slidebtn{
   margin-top: 30px;
   color: #ffff;
-  background-color: #12CAD6;
-  font-weight:bolder;
-  
+  background-color: #0FABBC;
+  font-weight:500;
+  width: 125px;
+  height: 50px;
+  border-radius: 5px;
+}
+:hover.slidebtn{
+  background-color: #12cad6;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 
@@ -232,7 +251,11 @@ nav ul ul .subnav {
 
 
 @media screen  and (max-width:1000px){
+ 
+#dotnav{
+  position: unset;
   
+}  
 #slide1 {
   padding-left: 10%;
   
@@ -241,19 +264,19 @@ nav ul ul .subnav {
 }
 #slide1 div p{
   font-weight:00;
-  line-height: 40px;
+  line-height: 30px;
   text-shadow: 1px 2px #000;
 }
 
 .slidebtn{
   margin-top: 10px;
-  margin-bottom: 20px;
-  line-height: 30px;
+  margin-bottom: 30px;
+  line-height: 20px;
+  height: 30px;
   color: #ffff;
-  font-size: 07px;
+  font-size: 0.7rem;
 }
 
-    
     .subnav, .subpro{
       height: 50px;
     }
@@ -396,8 +419,9 @@ nav ul ul .subnav {
       margin-top: 10px;
       margin-bottom: 20px;
       line-height: 20px;
+      height: 30px;
       color: #ffff;
-      font-size: 07px;
+      font-size: 0.7rem;
     }
 
     
@@ -445,10 +469,14 @@ nav ul ul .subnav {
     .slidebtn{
       margin-top: 10px;
       margin-bottom: 20px;
-      line-height: 20px;
+      line-height: 10px;
+      height: 30px;
+      
       color: #ffff;
-      font-size: 07px;
+      font-size: 0.7rem;
+      
     }
+    
    }
 
 
