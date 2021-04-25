@@ -1,11 +1,59 @@
-
+/* *****************************HomeSection2 Body content */
 #section2{
   position: relative;
   bottom: 50px;
-  background-color: r;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(250, 250, 250, 0.6);
 }
+#section2 div{
+padding-bottom: 30px;
+border-radius: 10px;
+}
+
+#section2 div div h3{
+  color: #12CAD6;
+  font-weight:bold ;
+}
+#section2right{
+padding-top: 10px;
+font-weight: 600;
+}
+
+#section2right span{
+  color: #12CAD6;
+  padding-left: 30px;
+}
+
+/* *******************************Home our Services section********************************* */
+#homeOurService{
+  background-image: url(../Images/HomeOurServiceBG.jpg);
+}
+
+#homeOurService button{
+  position: relative;
+  background-color: #0FABBC;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  width: 50%;
+  left: 25%;
+  border: #fff;
+  border-radius: 10px;
+}
+:hover .Homereadbtn{
+  border: thick #000 20px;
+}
+#homeOurService div .Homereadbtn{
+color: #000;
+border:thin #000 2px;
+margin-bottom: 0px;
+left: -30px;
+background-color: unset;
+
+}
+
+/* ******************************************************************** */
 
 .sidenaveheading p{
   color: #ffff;
@@ -17,6 +65,11 @@
 .bgblue{
     background-color: #0FABBC;
 }
+
+.navbtn{
+  text-decoration: red
+}
+
 
 #projects {
   width: 133px;
@@ -220,8 +273,9 @@ nav ul ul .subnav {
   line-height: 20px;
   text-shadow: 1px 2px #000;
 }
-#slide1 div p p{
+#slide1 p{
   display: block;
+  text-shadow: 1px 1px #000;
   
   
 }
@@ -253,7 +307,8 @@ bottom: 10%;
 @media screen  and (max-width:1000px){
  
 #dotnav{
-  position: unset;
+  position: relative;
+  bottom: 10%;
   
 }  
 #slide1 {
@@ -401,6 +456,7 @@ bottom: 10%;
    }
    /* ****************************************768px width */
    @media all and (max-width:768px){
+    
     #slide1{
       padding: 18% 15%;
       
@@ -442,11 +498,47 @@ bottom: 10%;
         width: 200px;
         
       }
+      #section2{
+        position: relative;
+        bottom: 40px;
+        background-color: r;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 7px;
+      }
+      #section2 div{
+        padding-bottom: 0;
+        border-radius: 10px;
+        padding-top: 10px;
+        }
       
    }
 
    @media all and (max-width:440px){
-    
+
+    #homeOurService button{
+      position: relative;
+      background-color: #0FABBC;
+      color: #fff;
+      margin-bottom: 30px;
+      font-weight: 700;
+      width: 75%;
+      left: 15%;
+      border: #fff;
+      border-radius: 10px;
+    }
+    #dotnav{
+      bottom: 0px;
+    }
+
+    #section2{
+      position: unset;
+      bottom:unset;
+      
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
     #slidearrow{
       width: 10%;
     }
