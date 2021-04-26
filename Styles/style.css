@@ -44,7 +44,19 @@ font-weight: 600;
 :hover .Homereadbtn{
   border: thick #000 20px;
 }
-#homeOurService div .Homereadbtn{
+
+.uk-card-media-top img{
+  width: 100%;
+  height: 300px;
+}
+
+:hover#ourservicecard{
+  background-color: #0FABBC;
+  color: #fff;
+
+
+} 
+#homeOurService div a{
 color: #000;
 border:thin #000 2px;
 margin-bottom: 0px;
