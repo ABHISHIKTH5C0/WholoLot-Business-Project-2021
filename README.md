@@ -1,4 +1,4 @@
-# WholoLot-Business-Project-2021
+# WholeLot-Business-Project-2021
 
 
 Designing a prototype for the wholeLot business website which is done with various techniques of wireframes low-fidelity and High-fidelity 
