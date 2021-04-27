@@ -67,10 +67,10 @@ background-color: unset;
 
 /* ******************************************************************** */
 
-.sidenaveheading p{
+.sidenaveheading address p{
   color: #ffff;
 }
-.sidenaveheading h3{
+.sidenaveheading  address h3,#time{
   color: black;
   font-weight: bold;
 }
@@ -82,12 +82,15 @@ background-color: unset;
   text-decoration: red
 }
 
-
+:hover #projects{
+  color: #fff;
+  text-decoration: unset;
+}
 #projects {
   width: 133px;
  
 }
-.subpro a{
+.subpro a {
   color: #ffff;
     font-size: 16px;
     text-decoration: none;
@@ -106,6 +109,7 @@ background-color: unset;
 }
 
 :hover.subpro{
+  color: #fff;
   background-color: #12CAD6;
   width: 133px;
   
@@ -124,23 +128,29 @@ body{
     height: 100vh;
     
    }
+.logo i{
 
+  width: 20px;
+  height: 15px;
+  
+}
 .sidenav{
     position: relative;
     top: 10px;
     padding-right:30px ;
+
 }   
 
-:hover.sidenav{
-color: black;
+/* :hover.sidenav{
+border: #fa1616 2px solid;
 transition: 0.9s;
-transform: rotateY(180deg)
-}
+transform: rotateXYZ(90deg)
+} */
 nav {
     position: relative;
     z-index:10;
     
-    background-color:rgba(228,249,255, 0.8);
+    background-color:rgba(228,249,255, 0.9);
     line-height:0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -343,6 +353,12 @@ bottom: 10%;
   color: #ffff;
   font-size: 0.7rem;
 }
+/* #projects li a{
+  color: #fa1616;
+}
+:hover #projects li a{
+  color: #ffffff
+} */
 
     .subnav, .subpro{
       height: 50px;
