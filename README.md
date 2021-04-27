@@ -21,3 +21,11 @@ note:
 
 *Modifcation can be done based on client requirement and complexity of tech tool's in the level of high fidelity prototype & source code development 
 
+<H2>CSS Frameworks Used</H2>
+
+<p>https://getuikit.com/</p><span>
+
+<p>https://getbootstrap.com/docs/5.0/getting-started/introduction</p>
+
+<h2>Code Pen</h2>
+<p>https://codepen.io/abhishikth5c0/pen/VwPzpEB</p>
