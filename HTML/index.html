@@ -193,18 +193,18 @@
 <div id="homeOurService" class="uk-section">
   <div class="uk-container">
     <div>
-      <button  class="uk-button-large">Our Services</button>
+      <h1>Our Services</h1>
     </div>
-    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card; ">
+    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card;" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 75; repeat: true">
       <div>
-          <div id="ourservicecard" class="uk-card uk-card-default">
+          <div id="ourservicecard" class="uk-card uk-card-default  ">
               <div  class="uk-card-media-top ">
                 <img src="../Images/itmangeimg.jpg"  alt="IT Management Img" >
               </div>
               <div class="uk-card-body">
                 <h3 class="uk-card-title">IT Management Services</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a class="Homereadbtn">Read More</a>
+                <button class="uk-button uk-button-text Homereadbtn">Read More</button>
               </div>
           </div>
       </div>
@@ -214,21 +214,21 @@
               <img src="../Images/cyberscurityimg.jpg" alt="Cyber Security Img" >
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title">Cyber Security Service</h3>
+                <h3 class="uk-card-title">Cyber Security Services</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a class="Homereadbtn">Read More</a>
+                <button class="uk-button uk-button-text ">Read More</button>
             </div>
         </div>
       </div>
       <div>
         <div id="ourservicecard" class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src="../Images/cloudcomputimg.jpg" alt=" Cloude Computing img">
+                <img src="../Images/cloudcomputimg.jpg" alt=" Cloud Computing img">
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title">Cloude Computing Services</h3>
+                <h3 class="uk-card-title">Cloud Computing Services</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a class="Homereadbtn">Read More</a>
+                <button class="uk-button uk-button-text Homereadbtn">Read More</button>
             </div>
         </div>
       </div>
@@ -237,7 +237,7 @@
     <!-- ********************************************* -->
     <!-- Home our service section 2 -->
 
-    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card; ">
+    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card; " uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 75; repeat: true">
       <div>
           <div id="ourservicecard" class="uk-card uk-card-default">
               <div id="" class="uk-card-media-top ">
@@ -246,7 +246,7 @@
               <div class="uk-card-body">
                 <h3 class="uk-card-title">IT Consulting Services</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a class="Homereadbtn">Read More</a>
+                <button class="uk-button uk-button-text Homereadbtn">Read More</button>
               </div>
           </div>
       </div>
@@ -258,7 +258,7 @@
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Software Dev Services</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a class="Homereadbtn">Read More</a>
+                <button class="uk-button uk-button-text Homereadbtn">Read More</button>
             </div>
         </div>
       </div>
@@ -270,7 +270,7 @@
             <div class="uk-card-body">
                 <h3 class="uk-card-title">UX/UI Services</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a class="Homereadbtn">Read More</a>
+                <button class="uk-button uk-button-text Homereadbtn  ">Read More</button>
             </div>
         </div>
       </div>
@@ -279,16 +279,22 @@
 </div>
 <!-- ************************************************************** -->
     <!-- Home Section 3 -->
-    <!-- <div class="uk-section">
-      <div class="uk-container">
+    
+      <div class="uk-container" id="homesection3">
         <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
           <div class="uk-card-media-left uk-cover-container">
-            <img src="../Images/adam-nowakowski-D4LDw5eXhgg-unsplash.jpg" width="200px" height="200px" alt="" uk-cover>
-            <canvas width="500" height="300"></canvas>
-        </div
+            <img src="../Images/adam-nowakowski-D4LDw5eXhgg-unsplash.jpg" width="200px"   alt="" > 
+          </div>
+
+          <div class="uk-card-body " id="homesection3content" >
+              <h2 class="uk-card-title">Digital Analysis</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              <button class="uk-button uk-button-text" style="color: blue;text-transform: none;">Learn More</button>
+          </div>
         </div>
       </div>
-    </div>  -->
+
+<!-- ***********************************************************************************-->
 <footer class="">
   <div class="ftrmain">
     <div class="footercontent">
@@ -361,6 +367,9 @@
         <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
         <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
         <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+      </div>
+      <div>
+        <span uk-tooltip="Scroll Up" uk-icon="icon: triangle-up ; ratio: 2.5" uk-scroll></span>
       </div>
     </div>
   </div>
