@@ -1,3 +1,90 @@
+/* **************************************Home section 5 Content */
+#homesection5card{
+  background-image: linear-gradient(#12CAD6,#e66262);
+  margin-bottom: 0px;
+}
+#homesection5 {
+  padding-bottom: 20px;
+}
+/* ************************************************************** */
+/* ***********************************Home Section 4 Content */
+:hover#imgclust1{
+  width: 135px;
+  height: 135px;
+  
+}
+#imgclust1{
+  width: 125px;
+  height: 125px;
+  margin-top: 10px;
+  background-image: url(../Images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+#imgclust2{
+  width: 100px;
+  height: 100px;
+  background-image: url(../Images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+#imgclust3{
+
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  background-image: url(../Images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+#imgclust4{
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  background-image: url(../Images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+#imgclust5{
+  width: 100px;
+  height: 100px;
+  margin-top: 40%;
+  background-image: url(../Images/adeolu-eletu-E7RLgUjjazc-unsplash.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+
+
+#homesection4 h2{
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 64px;
+}
+
+#homesection4 div{
+  padding-left:20px ;
+}
+
+#homesection4 {
+  padding-bottom: 20px;
+}
+
+/* *********************************************************** */
 /* ********************************Home section 3 content */
 #homesection3{
   margin-top:20px ;
@@ -77,8 +164,7 @@ font-weight: 600;
 :hover#ourservicecard{
   background-color: #0FABBC;
   color: #fff;
-
-
+  
 } 
 #homeOurService div a{
 color: #000;
@@ -88,6 +174,11 @@ left: -30px;
 background-color: unset;
 
 }
+#ourservicecard{
+  position: relative;
+  animation: scaleup 1ms;
+}
+
 
 /* ******************************************************************** */
 
