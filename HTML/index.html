@@ -117,7 +117,7 @@
                   <p class="uk-heading-medium">Unlock Your</p>
                   <p class="uk-heading-medium">Full Technology</p>
                   <p class="uk-heading-medium">Potential</p>
-                </div>git 
+                </div>
                 <p class="uk-margin-remove">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   Necessitatibus </p>
                   <div>
@@ -191,15 +191,15 @@
 
 <!--Home Our services section-->
 <div id="homeOurService" class="uk-section">
-  <div class="uk-container">
+  <div class="uk-container" id="homecontainer">
     <div>
       <h1>Our Services</h1>
     </div>
-    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card;" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 25; repeat: true">
+    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card;" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 5; repeat: true">
       <div>
-          <div id="ourservicecard" class="uk-card uk-card-default  ">
+          <div id="ourservicecard" class="uk-card uk-card-default ">
               <div  class="uk-card-media-top ">
-                <img src="../Images/itmangeimg.jpg"  alt="IT Management Img" >
+               <a href="#"> <img src="../Images/itmangeimg.jpg"  alt="IT Management Img" ></a>
               </div>
               <div class="uk-card-body">
                 <h3 class="uk-card-title">IT Management Services</h3>
@@ -237,7 +237,7 @@
     <!-- ********************************************* -->
     <!-- Home our service section 2 -->
 
-    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card; " uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 40; repeat: true">
+    <div class="uk-child-width-1-3@m"  uk-grid uk-height-match="target: > div > .uk-card; " uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 10; repeat: true">
       <div>
           <div id="ourservicecard" class="uk-card uk-card-default">
               <div id="" class="uk-card-media-top ">
@@ -303,35 +303,58 @@
       <button class="uk-button uk-button-text" style="color: blue;text-transform: none;">Learn More</button>
     </div>
     <div class="uk-card-media-left uk-cover-container">
-      <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true">
+      <div class="uk-child-width-1-2@s uk-child-width-1-3@m" id="homesection4clust" uk-grid="masonry: true">
         <div>
             <div id="imgclust1" class=" uk-flex uk-flex-center uk-flex-middle"></div>
         </div>
         <div>
           <div id="imgclust2" class="uk-flex uk-flex-center uk-flex-middle"></div>
-      </div>
-      <div>
-        <div id="imgclust3" class="uk-flex uk-flex-center uk-flex-middle"></div>
-      </div>
-      <div>
-        <div id="imgclust4" class="uk-flex uk-flex-center uk-flex-middle"></div>
-      </div>
-      <div>
-        <div id="imgclust5" class="uk-flex uk-flex-center uk-flex-middle"></div>
+        </div>
+        <div>
+          <div id="imgclust3" class="uk-flex uk-flex-center uk-flex-middle"></div>
+        </div>
+        <div>
+          <div id="imgclust4" class="uk-flex uk-flex-center uk-flex-middle"></div>
+        </div>
+        <div>
+          <div id="imgclust5" class="uk-flex uk-flex-center uk-flex-middle"></div>
+        </div>
       </div>
     </div>
-</div>
 </div>
 <!-- *************************************************************************************** -->
 <!-- Home section 5  -->
 
-<div id="homesection5card" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
 
-  <div class="uk-card-body " id="homesection5content" >
-    <h1 class="uk-card-title">Contact Us</h1>
-  </div>
-</div>
 <!-- ***********************************************************************************-->
+</div>
+<div id="homesection5card" >
+  <div class="uk-card-body " id="homesection5content" >
+    <div class="container">
+      <div class="text">Contact Us</div>
+      <form action="#">
+        
+        <div class="form-row">
+          <div class="input-data">
+            <input type="text" placeholder="First name" required>
+          </div>
+           <div class="input-data">
+            <input type="text" placeholder="Last Name" required>
+          </div>
+        </div>
+        <div class="form-row">
+           <div class="input-data">
+            <input type="email" placeholder="Your email"  required>
+            </div>
+           <div class="input-data">
+            <input type="tel" placeholder="Phone number"  required>
+            </div>
+        </div> 
+        
+      </form>
+      
+    </div> 
+  </div>
 </div>
 <footer class="">
   
