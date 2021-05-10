@@ -38,7 +38,7 @@ form .form-row .input-data{
   display:block;
   width:75%;
 }
-.input-data-submit input{
+.input-data-submit button{
   width:25%;
   height:25px;
   background-color: #12CAD6;

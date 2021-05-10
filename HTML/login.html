@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head >
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WholeLot</title>
+        <link href="https://wholelot.azureedge.net/images/images/favicon.ico" rel="shortcut icon">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <!--CSS frameworks-->
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+        
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+
+        <link href="../Styles/style.css" rel="stylesheet">
+        <link href="../Styles/footer.css" rel="stylesheet">
+        
+
+        <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit-icons.min.js"></script>
+
+        <script src="https://kit.fontawesome.com/9a73dcd5bc.js" crossorigin="anonymous"></script>   
+            
+    </head>
+<body>
+  <header uk-sticky> 
+    <div class="uk-position-top">
+    <nav class="uk-navbar-container uk-navbar-transparent"  >
+      <div class="logo"><i class="sidenav  fas fa-align-right "uk-toggle="target: #offcanvas-overlay"  href="#">
+      </i> <img src="../Images/WholeLot logo.svg" width="175px"></img></div>
+      <label for="btn" class ="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+        <ul>
+          <li><a class="primnav mainnav" href="#">HOME</a></li>
+          <li><a class="primnav mainnav"  href="#">ABOUT US</a></li>
+          <li>
+            <label for="btn-1" class="show">SERVICES<i class="fas fa-angle-down"></i></label>
+            <a class="primnav mainnav"  href="#">SERVICES  <i class="fas fa-angle-down"></i></a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+              <li class="subnav "><a href="#">Services</a></li>
+              <li class="subnav "><a href="#">All serives</a></li>
+            </ul>
+          </li> 
+          <li>
+            <label for="btn-2" class="show">PROJECTS <i class="fas fa-angle-down"></i></label>
+            <a class="primnav mainnav" href="#">PROJECTS <i class="fas fa-angle-down"></i></a>
+            <input type="checkbox" id="btn-2">
+            <ul id="projects">
+              <li class="subnav subpro"><a  href="#">Projects</a></li>
+              <li class="subnav subpro"><a href="#">All projects</a></li>
+            </ul>
+          </li>  
+           <li ><a class="loginnav" href="#">Login</a></li>
+       </ul>
+  </div>
+</nav>
+</header> 
+<!--offcanvas side nav-->
+
+<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+  <div class="uk-offcanvas-bar" style="background-color: #0FABBC;">
+      <button class="uk-offcanvas-close  " type="button" uk-close></button>
+    <div style="margin-bottom: 30px;">
+      <img src="../Images/WholeLot logo.svg" width="175px"></img>
+    </div>
+    <div>
+      <p style="font-style: italic; line-height: 30px; color: #ffff;">We are experienced professionals who understand that It services is changing, and are true partners who care about your future business success.</p>
+    </div> 
+    <div class="sidenaveheading" >
+        <address>
+          <h3>Our Location</h3>
+          <P>Dummy address</P>
+          <p>Dummy Pin</p>
+          <p>Dummy Place</p>
+        </address>
+    </div>
+    <div class="sidenaveheading">
+      <address>
+        <h3 >Contact</h3>
+        <p><a href="mailto:abhishikth5c0@gmail.com">abhishitkh5c0@gmail.com</a></p>
+        <p> <a href="tel:+445552368">(+44) 555-2368</a></p>
+      </address>
+    </div>
+    <div class="sidenaveheading">
+      <h3 id="time">Opening Hours</h3>
+      <p>Monday-Friday</p>
+      <p>8am to 7pm</p>
+    </div>
+  </div>
+</div>
+</div>
+<footer class=".uk-position-bottom">
+  
+    <div class="ftrmain ">
+      <div class="footercontent">
+        <h2>WholeLot</h2>
+        <p>We are experienced professionals who understand that It services is changing, 
+          and are true partners who care about your future business success.</p>
+          <form class="d-flex" style="height: 25px;">
+            <input class="form-control me-2" type="search" placeholder="Your email" aria-label="Subscribe">
+            <button >Subscribe</button>
+          </form>
+          <hr>
+      </div>
+      <div class="servicelinks">
+        <div class="ftrservicelist">
+          <div>
+            <h3>All Services</h3>
+            <div class="nestftr"> 
+              <ul>
+                <li><a href="#">Business Management</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Business Consultant</a></li>
+                <li><a href="#">Digital Market</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Website Optimization</a></li>
+                <li><a href="#">Social Media Marketing</a></li>
+                <li><a href="#">Content Marketing</a></li>
+                <li><a href="#">Search Engine Marketing</a></li>
+              </ul>
+          </div> 
+        </div>
+        </div>
+        <div class="ftrlinks">
+          <div>
+            <h3 id="usefulllinks">Useful Links</h3>
+              <div class="nestftrlinks">
+                <ul>
+                  <li><a href="#">Group Profile</a></li>
+                  <li><a href="#">Vision & Values</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Winning Awards</a></li>
+                </ul>
+              </div>
+          </div>  
+        </div>
+      </div>
+      
+      <div class="footericons">
+        
+        <div>
+          <p><a href="#" style="color: #fff; ">Terms of use</a></p>
+          <p style="color: black;   "><i class="far fa-copyright"> Copyright 2021.WholeLot All Rights Reserved</i></p>
+        </div>
+        <div class="subicons">
+          <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+          <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+          <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+        </div>
+      </div>
+    </div>  
+  
+    <div class="subfooter">
+      <div class="subftricon">
+        <div>
+          <p><a href="#" style="color: #fff; ">Terms of use</a></p>
+          <p style="color: black;   "><i class="far fa-copyright"> Copyright 2021.WholeLot All Rights Reserved</i></p>
+        </div>
+        <div class="fticons">
+          <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+          <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+          <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+        </div>
+        <div>
+          <span uk-tooltip="Scroll Up" uk-icon="icon: triangle-up ; ratio: 2.5" uk-scroll></span>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+          <!--[if lt IE 7]>
+              <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+          <![endif]-->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+  </html>
+  
