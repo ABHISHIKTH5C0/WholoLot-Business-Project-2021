@@ -32,15 +32,16 @@
 <!-- UIkit JS -->
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.20/dist/js/uikit-icons.min.js"></script>
+<script src="uikit/dist/js/uikit-icons.min.js"></script>
 
         <script src="https://kit.fontawesome.com/9a73dcd5bc.js" crossorigin="anonymous"></script>   
             
-    </head>
+</head>
 <body>
   <header uk-sticky> 
     <div class="uk-position-top">
     <nav class="uk-navbar-container uk-navbar-transparent"  >
-      <div class="logo"><i class="sidenav  fas fa-align-right "uk-toggle="target: #offcanvas-overlay"  href="#">
+      <div class="logo"><i class="sidenav  fas fa-align-right "uk-toggle="target: #offcanvas-none"  >
       </i> <img src="../Images/WholeLot logo.svg" width="175px"></img></div>
       <label for="btn" class ="icon">
         <span class="fa fa-bars"></span>
@@ -74,8 +75,8 @@
 </header> 
 <!--offcanvas side nav-->
 
-<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
-  <div class="uk-offcanvas-bar" style="background-color: #0FABBC;">
+<div id="offcanvas-none" uk-offcanvas="overlay: true" >
+  <div class="uk-offcanvas-bar " style="background-color: #0FABBC; overflow-y: visible;">
       <button class="uk-offcanvas-close  " type="button" uk-close></button>
     <div style="margin-bottom: 30px;">
       <img src="../Images/WholeLot logo.svg" width="175px"></img>
@@ -331,7 +332,7 @@
 <div id="homesection5card" >
   <div class="uk-card-body " id="homesection5content" >
     
-    <div class="container">
+    <div class="container" id="contactcontain">
       <div class="text">Contact Us</div>
       <form action="#">
         
@@ -360,7 +361,7 @@
     </div> 
   </div>
 </div>
-<footer class="">
+<footer class="uk-stick-fixed">
   
   <div class="ftrmain">
     <div class="footercontent">
@@ -444,7 +445,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
+
 </html>
 
 
