@@ -22,6 +22,7 @@ footer{
     border-radius: 5px;
     background-color: #1473E6;
     width: 150px;
+    border: unset;
     /* padding-bottom: 5px; */
 }
   .servicelinks{
