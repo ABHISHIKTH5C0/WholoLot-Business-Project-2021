@@ -108,10 +108,13 @@ border-radius: 5px;
   flex-direction: row;
   justify-content: center;
   margin-bottom: -10px;
+  padding-bottom: 20px;
 }
 #regcheckbox button{
   color: #4156DD;
   text-transform:none;
+ 
+  
 }
 
 
@@ -134,7 +137,7 @@ border-radius: 5px;
   position: relative;
   margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.7) ;
-  height: 400px;
+  height: 500px;
   width: 50%;
   border-radius: 5px;
   padding-bottom: 19%;
@@ -699,12 +702,28 @@ bottom: 10%;
   #registercard form {
    width: 100%;
   }
-#regitercard{
-  height: unset;
-  padding-bottom: 40%;
+  #registercard{
+  
+  height: 500px;
+ 
+}
+#regcontainer{
+  padding-top: 10%;
+  height: 100%;
+  
+}
+#navtag{
+  
+  color:#fa1616; 
+  
+}
+#navtag:hover{
+  color: #ffffff; 
+  
+}
 
 
-  }
+  
   #logincontainer{
     height: unset;
 
@@ -859,6 +878,7 @@ bottom: 10%;
    }
 /* *********************************************1242px width */
    @media all and (max-width:1256px){
+    
      #logincard form{
        width: 75%;
       
@@ -897,6 +917,12 @@ bottom: 10%;
    }
    /* ****************************************768px width */
    @media all and (max-width:768px){
+
+    #registercard{
+      height: 700px;
+      width: 500px;
+      padding: 20px;
+    }
 
     #logincard{
       width: 75%;
