@@ -457,13 +457,13 @@ background-color: unset;
 }
 .subpro a {
   color: #ffff;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
 }
 
 .subnav a{
     color: #ffff;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -476,7 +476,7 @@ background-color: unset;
 :hover.subpro{
   color: #fff;
   background-color: #12CAD6;
-  width: 133px;
+  width: 127px;
   
 }
 header{
@@ -716,9 +716,11 @@ bottom: 10%;
   
   color:#fa1616; 
   
+  
 }
 #navtag:hover{
   color: #ffffff; 
+  
   
 }
 
@@ -775,15 +777,16 @@ bottom: 10%;
     .subnav, .subpro{
       height: 50px;
       text-decoration: none;
+      background-color: rgba(166, 221, 230, 0.9);
     }
     :hover.subnav a ,.subpro a{
         color: #ffff;
-        font-size: 17px;
+        font-size: 14px;
         text-decoration: none;
     }
     .subnav a , .subpro a{
         color: #fa1616;
-        font-size: 17px;
+        font-size: 14px;
         text-decoration: none;
     }
     
@@ -1045,6 +1048,14 @@ bottom: 10%;
 }
 /* ********************************************************************************************* */
    @media all and (max-width:440px){
+     #registercard{
+       padding-top: 60px;
+     }
+     #regcontainer{
+       padding-top: 0;
+       padding-bottom: 0;
+       
+     }
      #logincard{
        margin-top: 20%;
      }
