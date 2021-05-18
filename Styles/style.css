@@ -1,4 +1,52 @@
+/* *************************************************************T&C************ */
+#termscontainer{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+
+  background-image: url(../Images/T&C_BG.jpg) ;
+  
+ 
+  background-size: cover; 
+ 
+}
+#termscard{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  position: relative;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.6) ;
+  width: 50%;
+  border-radius: 5px;
+  padding-bottom: 5%;
+}
+#termsdesc{
+  display: flex;
+  flex-direction: column;   
+ 
+  font-size: 14px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+#Termshead{
+  text-align: center;
+  font-size:36px;
+  font-weight: 800;
+  padding-top: 2%;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ***********************************************Forget password************ */
+#backlogin{
+  display: flex;
+  justify-content: center;
+}
+/* ************************************************************************ */
 /* >>>>>>>>>>>>>Login page******************************************** */
+
 #logincontainer{
   display: flex;
   justify-content: center;
@@ -702,6 +750,14 @@ bottom: 10%;
   #registercard form {
    width: 100%;
   }
+  #termscontainer{
+    padding-top: 10%;
+    height: 100%;
+  }
+  #termscard{
+    width: 75%;
+  
+  }
   #registercard{
   
   height: 500px;
@@ -1048,13 +1104,23 @@ bottom: 10%;
 }
 /* ********************************************************************************************* */
    @media all and (max-width:440px){
+     #termscontainer{
+      padding-top: 0%;
+      padding-bottom: 0;
+      
+     }
+     #termscard{
+      padding-top: 60px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.7) ;
+     }
      #registercard{
-       padding-top: 60px;
+       
      }
      #regcontainer{
        padding-top: 0;
        padding-bottom: 0;
-       
+     
      }
      #logincard{
        margin-top: 20%;
